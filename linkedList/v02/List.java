@@ -9,10 +9,10 @@ public interface List {
     public boolean add( String x ); 
 
     //inserts a node containing s at position I
-    void add( int i, String s ); 
+    public void add( int i, String s ); 
 
     //removes the node at position i and returns its cargo
-    String remove( int i );
+    public String remove( int i );
 
     //return data in element at position i
     public String get( int i ); 
