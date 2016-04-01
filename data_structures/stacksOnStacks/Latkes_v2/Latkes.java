@@ -13,8 +13,11 @@ public class Latkes<T> implements Stack<T> {
     //constructor
     public Latkes() 
 	{ 
-
+	    //typecasting hard to avoid here:
+	    _stack = ( T[] )new Object[42]; 
+	    //...
     }
+
 
     //overloaded constructor allows for intial capacity declaration
     public Latkes( int size ) 
