@@ -10,7 +10,7 @@
  ******************************************************/
 
 //import java.util.NoSuchElementException;
-//import java.util.RuntimException;
+//import java.lang.RuntimeException;
 
 public class LLQueue<T> implements Queue<T> {
 
