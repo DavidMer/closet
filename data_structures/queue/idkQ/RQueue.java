@@ -31,7 +31,7 @@ public class RQueue<T> implements Queue<T> {
     }//end enqueue()
 
 
-    // remove and return thing at front of queue, then reorder elements
+    // remove and return thing at front of queue
     // assume _queue ! empty
     public T dequeue() 
     { 
